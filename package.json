@@ -1,7 +1,7 @@
 {
   "name": "reazy-auth",
   "description": "A simple authentication module for your Reazy application.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
