@@ -13,12 +13,12 @@
 
 ### 2. Manual
 
-  Install `reazy-auth`
+  - Install `reazy-auth`
   ```sh
   $ npm install --save reazy-auth
   ```
 
-  Add these lines to your `src/app.js`.
+  - Add these lines to your `src/app.js`.
   ```js
   import reazy from 'reazy';
   import auth from 'reazy-auth';                    // <-- import the service
