@@ -4,7 +4,14 @@
 ---
 
 ## Installation
-- ### Manual
+
+### 1. Using [Reazy CLI](https://www.npmjs.com/package/reazy-cli)
+
+  ```sh
+  $ reazy add auth
+  ```
+
+### 2. Manual
 
   Let's add a new service `reazy-auth` which is available as a reazy plugin.
   ```sh
@@ -23,12 +30,6 @@
   app.use(reactNative(), 'reactNative');
 
   export default app;
-  ```
-
-- ### Using [Reazy CLI](https://www.npmjs.com/package/reazy-cli)
-
-  ```sh
-  $ reazy add auth
   ```
 
 ## Usage
