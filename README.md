@@ -68,5 +68,3 @@ This service provides the following functions:
   ```js
   const token = app.auth.getToken();
   ```
-
-Testing gitbook
