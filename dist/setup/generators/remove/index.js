@@ -26,7 +26,7 @@ module.exports = _yeomanGenerator2.default.Base.extend({
   },
 
   writing: function writing() {
-    (0, _reazySetupHelper.removeImport)('reazy-auth');
     (0, _reazySetupHelper.removeUse)('reazy-auth');
+    (0, _reazySetupHelper.removeImport)('reazy-auth');
   }
 });

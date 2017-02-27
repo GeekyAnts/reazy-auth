@@ -20,7 +20,7 @@ module.exports = generators.Base.extend({
   },
 
   writing: function () {
-    removeImport('reazy-auth');
     removeUse('reazy-auth');
+    removeImport('reazy-auth');
   }
 });
